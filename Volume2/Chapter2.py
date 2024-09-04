@@ -14,3 +14,56 @@ luka.get_older(4)
 print(luka.name)
 print(luka.age)
 print(luka.hobby)
+
+
+# try - except - finally
+
+# wrapping
+
+
+# def book_title(title):
+#     return "Book title: " + title
+
+# def info(title,func):
+#     return func(title)
+
+# print(info("Hobbit",book_title))
+
+# pure and impure functions
+
+# lambda
+
+# lambda x: x + 5
+
+# lambda name: "Hello " + name
+
+# map
+
+# def positive_checker(num):
+#     return num > 5
+
+# nums = [1,5,-3,2,-5,6,-8,0,2,1,26,0,6,-6,2]
+
+# status = list(map(positive_checker, nums))
+
+# print(status)
+
+# filter
+
+# nums = [1,5,-3,2,-5,6,-8,0,2,1,26,0,6,-6,2]
+
+# status = list(filter(lambda num: num > 0, nums))
+
+# print(status)
+
+def arguments(name,*names,**namess):
+    print(name)
+    for name in names:
+        print(name)
+    
+    for i,v in namess:
+        print("for index","value:",v)
+
+
+
+arguments("luka",("ana","giorgi","erqww"),{"saxeli":"ana","value":"mama"})
