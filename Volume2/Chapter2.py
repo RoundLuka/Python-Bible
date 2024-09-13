@@ -1,19 +1,19 @@
-class Person():
+# class Person():
 
-    def __init__(self,name,age,hobby):
-        self.name = name
-        self.age = age
-        self.hobby = hobby
+#     def __init__(self,name,age,hobby):
+#         self.name = name
+#         self.age = age
+#         self.hobby = hobby
 
-    def get_older(self,years):
-        self.age += years
+#     def get_older(self,years):
+#         self.age += years
 
-luka = Person("Luka",16,"Coding")
-luka.get_older(4)
+# luka = Person("Luka",16,"Coding")
+# luka.get_older(4)
 
-print(luka.name)
-print(luka.age)
-print(luka.hobby)
+# print(luka.name)
+# print(luka.age)
+# print(luka.hobby)
 
 
 # try - except - finally
@@ -69,39 +69,41 @@ print(luka.hobby)
 # arguments("luka",("ana","giorgi","erqww"),{"saxeli":"ana","value":"mama"})
 
 
-class Dinosaur():
-    def __init__(self,name,period,diet):
-        self.name = name
-        self.diet = diet
+# class Dinosaur():
+#     def __init__(self,name,period,diet):
+#         self.name = name
+#         self.diet = diet
     
-    def roar(self):
-        return f"{self.name} roar! RAWHH!"
+#     def roar(self):
+#         return f"{self.name} roar! RAWHH!"
     
-    def info(self):
-        return f"{self.name} lived in {self.period} of time and was a {self.diet}"
+#     def info(self):
+#         return f"{self.name} lived in {self.period} of time and was a {self.diet}"
 
 
-    class TRex(Dinosaur):
-        def __init__(self,name,period):
-            super().__init__(name,period,"carnivore")
+#     class TRex(Dinosaur):
+#         def __init__(self,name,period):
+#             super().__init__(name,period,"carnivore")
         
-        def roar(self):
-            return f"{self.name} was carnivore king of dinosaurs"
+#         def roar(self):
+#             return f"{self.name} was carnivore king of dinosaurs"
     
-    class Triceratops(Dinosaur):
-        def __init__(self,name,period):
-            super().__init__(name,period,"herbivore")
+#     class Triceratops(Dinosaur):
+#         def __init__(self,name,period):
+#             super().__init__(name,period,"herbivore")
         
-        def charge(self):
-            return f"{self.name} charges with its horns!"
+#         def charge(self):
+#             return f"{self.name} charges with its horns!"
     
 
-t_rex = TRex("Tyrannosaurus Rex", "Cretaceous")
-triceratops = Triceratops("Triceratops", "Cretaceous")
+# t_rex = TRex("Tyrannosaurus Rex", "Cretaceous")
+# triceratops = Triceratops("Triceratops", "Cretaceous")
 
-print(t_rex.roar())
-print(t_rex.info())
+# print(t_rex.roar())
+# print(t_rex.info())
 
-print(triceratops.charge())
-print(triceratops.info())
+# print(triceratops.charge())
+# print(triceratops.info())
+
+
 
